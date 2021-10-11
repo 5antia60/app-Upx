@@ -1,0 +1,25 @@
+<div class="content">
+  <div class="content--data">
+    <div class="content--data--title">
+      <h1>App Pets</h1>
+      <img src="../../../assets/images/dogIcon.png">
+    </div>
+    <div class="content--data--forms">
+      <h1>Login</h1>
+      <div class="content--data--forms--inputs">
+        <div class="content--data--forms--inputs--1">
+          <p>Usuário</p>
+          <input type="text" placeholder="email@email.com" [(ngModel)]="user">
+        </div>
+        <div class="content--data--forms--inputs--1">
+          <p>Senha</p>
+          <input type="password" placeholder="*********" [(ngModel)]="password">
+        </div>
+      </div>
+      <div class="content--data--forms--lastLine">
+        <p>Criar conta</p>
+        <button (click)="login()">Entrar</button>
+      </div>
+    </div>
+  </div>
+</div>
