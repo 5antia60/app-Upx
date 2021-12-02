@@ -21,6 +21,10 @@ import {FooterComponent} from '../../components/footer/footer.component';
     HeaderComponent,
     FooterComponent
   ],
-  declarations: [HomePage, HeaderComponent, FooterComponent]
+  declarations: [
+    HomePage,
+    HeaderComponent,
+    FooterComponent,
+  ]
 })
 export class HomePageModule {}

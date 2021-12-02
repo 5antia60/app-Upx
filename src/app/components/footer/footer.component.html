@@ -1,5 +1,5 @@
 <div class="content">
-  <ion-icon name="videocam-outline"></ion-icon>
+  <ion-icon name="videocam-outline" (click)="presentAlert()"></ion-icon>
   <ion-icon name="home-outline" routerLink="/home" [class.active]="true" [class.active]="pageSelected[1]"></ion-icon>
   <ion-icon name="person-circle-outline" routerLink="/profile" [class.active]="pageSelected[2]"></ion-icon>
 </div>
