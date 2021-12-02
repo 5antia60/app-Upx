@@ -3,8 +3,29 @@
   height: 100%;
   width: 100%;
   &--data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 100%;
     background: rgb(255 255 255 / 5%);
+    padding: 0 3rem;
+
+    &--buttonArea {
+      height: 5rem;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+
+      button {
+        background: #247a30;
+        color: #fff;
+        width: 8rem;
+        height: 2rem;
+        border-radius: 0.6rem;
+      }
+    }
   }
 }

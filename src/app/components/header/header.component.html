@@ -1,5 +1,5 @@
 <div class="content">
-  <div class="content--button">
+  <div class="content--button" [class.display-none]="!backButton">
     <ion-icon name="arrow-back-outline" (click)="onBack()"></ion-icon>
   </div>
   <div class="content--button">
